@@ -55,7 +55,7 @@ jobs:
           
         sdk:
           - 24.09.11
-          - SNAPSHOT
+          #- SNAPSHOT
 
     steps:
       - uses: actions/checkout@v4
