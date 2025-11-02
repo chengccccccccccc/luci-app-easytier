@@ -54,7 +54,7 @@ jobs:
           #- x86_64
           
         sdk:
-          - 25.10.02
+          - 25.01.01
           - SNAPSHOT
 
     steps:
