@@ -22,7 +22,7 @@ permissions:
   contents: write
 jobs:
   build:
-    name: Build ${{ matrix.arch }}-${{ matrix.sdk }}
+    name: Build ${{ matrix.arch }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
